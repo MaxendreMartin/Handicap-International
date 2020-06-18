@@ -1,0 +1,140 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MuseoModerno', cursive;
+    font-family: 'Oswald', sans-serif;  
+}
+
+header{
+  background-image: url(images/background5.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position:center ;
+  height: 650px;
+  color: white;
+}
+
+.nav{
+  background-color: white;
+  padding: 10px;;
+}
+
+.topnav {
+  overflow: hidden;
+  margin-left: 200px;
+  
+}
+
+.topnav :last-child{
+  float: right;
+  margin-right: 200px;
+  margin-top:10px;
+}
+
+.topnav a {
+  float: left;
+  color:#3d94d5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'MuseoModerno', cursive;
+  font-weight: 500;
+}
+
+.img{
+  margin-left:10%;
+  margin-top:140px;
+
+}
+
+
+/*-----Presentation-----*/
+
+#presentation{
+  /*border:1px solid blue;*/
+}
+
+.bloc{
+  width:50%;
+  height:500px;
+  text-align: center;
+  background-color: #3d94d5;
+  color:white;
+  padding:25px;
+  display:flex;
+  float: left;
+  font-size: 22px;
+  
+}
+
+.bloc2{
+  margin:auto;
+}
+
+
+.imagedroite{
+  
+  width: 50%;
+  float: right;
+  height:500px;
+
+}
+
+
+/*-----Partie Contact----*/
+
+.textport{
+  background-color:#004f71;
+  text-align: center;
+  margin: auto;
+  color:white;
+  padding:15px;
+  height: 400px;
+  font-size: 18px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top:100px;
+}
+
+/*-----Partie citation----*/
+
+#citation{
+  height: 350px;;
+}
+
+.cit{
+  background-color: #3d94d5 ;
+  height: 250px;
+  text-align: center;
+  margin-top: 100px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
+/*-----Partie association-----*/
+
+.textport2{
+  background-color:#004f71;
+  text-align: center;
+  margin: auto;
+  color:white;
+  padding:15px;
+  height: 250px;
+  font-size: 18px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -150px;
+  margin-bottom: 50px;
+}
+
