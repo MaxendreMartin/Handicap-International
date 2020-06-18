@@ -52,10 +52,6 @@ header{
 
 /*-----Presentation-----*/
 
-#presentation{
-  /*border:1px solid blue;*/
-}
-
 .bloc{
   width:50%;
   height:500px;
@@ -103,12 +99,13 @@ header{
 /*-----Partie citation----*/
 
 #citation{
-  height: 350px;;
+  height: 450px;;
+  
 }
 
 .cit{
   background-color: #3d94d5 ;
-  height: 250px;
+  height: 350px;
   text-align: center;
   margin-top: 100px;
   display:flex;
@@ -117,8 +114,16 @@ header{
   color:white;
   font-size: 22px;
   font-weight: bold;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
+h2{
+  
+  padding-top: 60px;
+}
 
 /*-----Partie association-----*/
 
